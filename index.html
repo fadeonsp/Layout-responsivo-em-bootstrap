@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Layout Responsivo</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <a class="navbar-brand" href="#">Lorem ipsum dolor</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSite">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownSite" data-toggle="dropdown" 
+                    href="#">Produtos</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Primeiro Produto</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Segundo Produto</a>
+                        <a class="dropdown-item" href="#">Terceiro Produto</a>
+                        <a class="dropdown-item" href="#">Quarto Produto</a>
+                    </div><!--dropdown-menu-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contatos</a>
+                </li>
+            </ul>
+
+        </div><!--collapse-->
+    </nav>
+
+    <div id="carouselSite" class="carousel slide my-4" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block img-fluid" src="https://via.placeholder.com/1920x700" alt="primeiro slide">
+                <div class="carousel-caption d-none d-lg-block">
+                    <h4>Primeiro Slide</h4>
+                    <p>Conteúdo do primeiro slide</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                    <img class="d-block img-fluid" src="https://via.placeholder.com/1920x700" alt="segundo slide">
+                    <div class="carousel-caption d-none d-lg-block">
+                        <h4>Segundo Slide</h4>
+                        <p>Conteúdo do segundo slide</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                        <img class="d-block img-fluid" src="https://via.placeholder.com/1920x700" alt="terceiro slide">
+                        <div class="carousel-caption d-none d-lg-block">
+                            <h4>Terceiro Slide</h4>
+                            <p>Conteúdo do terceiro slide</p>
+                        </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-sm-6 col-md-4 mb-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h4 class="card-title">Titulo da primeira página</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="card-link">Um link</a>
+            </div><!--card-body-->
+        </div><!--card-->
+     </div><!--col-->
+     <div class="col-sm-6 col-md-4 mb-4">
+         <div class="card">
+             <div class="card-body text-center">
+                 <h4 class="card-title">Titulo da Segunda página</h4>
+                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                 <a href="#" class="card-link">Um link</a>
+            </div><!--card-body-->
+         </div><!--card-->
+    </div><!--col-->
+     <div class="col-sm-12 col-md-4 mb-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h4 class="card-title">Titulo da Terceira página</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="card-link">Um link</a>
+            </div><!--card-body-->
+        </div><!--card-->
+    </div><!--col-->
+    </div><!--row-->
+
+    <div class="jumbotron">
+        <h1 class="display-3">Layout Bootstrap</h1>
+        <p class="lead">Donec ut interdum magna, sit amet efficitur ipsum.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg"  href="#">Mais um link</a>
+        </p>
+    </div><!--jumbotron-->
+
+  </div><!--container-->
+    
+<script src="/js/jquery.min.js"></script> 
+<script src="/js/popper.min.js"></script>  
+<script src="/js/bootstrap.min.js"></script> 
+</body>
+</html>
